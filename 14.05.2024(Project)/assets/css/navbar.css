@@ -1,0 +1,75 @@
+nav.navbar.bootsnav {
+  background-color: transparent;
+  border-bottom: transparent;
+}
+.wrap-sticky nav.navbar.bootsnav.sticked {
+  background-color: #61bf82;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.wrap-sticky nav.navbar.bootsnav.sticked ul.nav > li > a {
+  color: white;
+}
+.wrap-sticky nav.navbar.bootsnav.sticked ul.nav > li > img{
+  content: url(../logo/cga.png);
+  margin-top: 23px;
+  margin-right: 350px;
+  width: 84px;
+}
+.wrap-sticky nav.navbar.bootsnav.sticked ul.nav > li > a:hover {
+  color: black;
+}
+
+.navbar-header .navbar-brand img {
+  width: 100px;
+  margin-top: 5px;
+}
+.navbar-header a.navbar-brand span {
+  display: inline-block;
+  color: #61bf82;
+  text-transform: capitalize;
+}
+
+nav.navbar.bootsnav ul.nav > li > a {
+  color: #f5f7fa;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+nav.navbar.bootsnav ul.nav > li > a {
+  padding: 48px 21px;
+}
+nav.navbar.bootsnav ul.nav > li > a:hover,
+nav.navbar.bootsnav ul.nav > li > a:focus {
+  color: #61bf82;
+}
+nav.navbar.bootsnav ul.nav > li.active > a {
+  color: #61bf82;
+}
+
+nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after {
+  content: "";
+}
+nav.navbar.bootsnav ul.nav > li.dropdown span {
+  font-size: 8px;
+  margin-left: 15px;
+}
+.wrap-sticky nav.navbar.bootsnav.sticked ul.nav > li > a {
+  padding: 30px 25px;
+}
+
+nav.navbar.bootsnav .navbar-toggle {
+  position: relative;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 23px;
+  border-radius: 15px;
+  top: 0;
+}
+nav.navbar.bootsnav .navbar-toggle i {
+  color: white;
+}

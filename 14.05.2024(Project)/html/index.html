@@ -1,0 +1,1540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Rufina:400,700"
+      rel="stylesheet"
+    />
+    <title>Caspian Global Auto</title>
+    <link
+      rel="shortcut icon"
+      type="image/icon"
+      href="../assets/logo/cga_logo.png"
+    />
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../assets/css/linearicons.css" />
+    <link rel="stylesheet" href="../assets/css/flaticon.css" />
+    <link rel="stylesheet" href="../assets/css/animate.css" />
+    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../assets/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/bootsnav.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css" />
+    <link rel="stylesheet" href="../assets/css/navbar.css" />
+    <link rel="stylesheet" href="../assets/css/calculator.css" />
+  </head>
+
+  <body>
+    <section id="home" class="welcome-hero">
+      <div class="top-area">
+        <div class="header-area">
+          <nav
+            class="navbar navbar-default bootsnav navbar-sticky navbar-scrollspy"
+            data-minus-value-desktop="70"
+            data-minus-value-mobile="55"
+            data-speed="1000"
+          >
+            <div class="container">
+              <div class="navbar-header">
+                <button
+                  type="button"
+                  class="navbar-toggle"
+                  data-toggle="collapse"
+                  data-target="#navbar-menu"
+                >
+                  <i class="fa fa-bars"></i>
+                </button>
+              </div>
+              <div
+                class="collapse navbar-collapse menu-ui-design"
+                id="navbar-menu"
+              >
+                <ul
+                  class="nav navbar-nav navbar-right"
+                  data-in="fadeInDown"
+                  data-out="fadeOutUp"
+                >
+                  <li class="icon">
+                    <img
+                      src="../assets/logo/cga_logo.png"
+                      onclick="window.location.href='#home'"
+                    />
+                  </li>
+                  <li class="scroll active"><a href="#home">əsas</a></li>
+                  <li class="scroll"><a href="#service">şirkətimiz</a></li>
+                  <li class="scroll">
+                    <a href="#new-cars">yeni avtomobillər</a>
+                  </li>
+                  <li class="scroll"><a href="#featured-cars">Kataloq</a></li>
+                  <li class="scroll"><a href="#contact">əlaqə</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="container">
+        <div class="welcome-hero-txt">
+          <h2>İSTƏDİYİNİZ AVTOMOBİLİ MÜNASİB QİYMƏTƏ SEÇİN</h2>
+          <p>
+            Bunun üçün bizim Instagram səhifəmizə müraciət edə bilərsiziz, vs
+            yaxud əlaqə nömrələri ilə bizimlə əlaqə saxlıya bilərsiniz!
+          </p>
+          <button class="welcome-btn" onclick="window.location.href='#contact'">
+            Əlaqə
+          </button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="model-search-content">
+              <div class="calculator slide-in-blurred-left">
+                <form class="calc-form">
+                  <div class="calc-items">
+                    <div class="b-1 calc-item">
+                      <h5>Gömrük Hesablayıcı</h5>
+                    </div>
+                    <div class="b-2 calc-item">
+                      <select>
+                        <option value="default">
+                          Nəqliyyat vasitəsinin növü
+                        </option>
+                        <option value="Minik-Avtomobili">
+                          Minik-Avtomobili
+                        </option>
+                      </select>
+                    </div>
+                    <div class="b-3 calc-item">
+                      <select>
+                        <option value="default">Mühərrikin növü</option>
+                        <option value="Benzin">Benzin</option>
+                        <option value="Dizel">Dizel</option>
+                        <option value="Qaz">Qaz</option>
+                        <option value="Elektrik">Elektrik</option>
+                        <option value="Hibrid-benzin">Hibrid-benzin</option>
+                        <option value="Hibrid-dizel">Hibrid-dizel</option>
+                      </select>
+                    </div>
+                    <div class="b-4 calc-item">
+                      <input
+                        id="b4"
+                        placeholder="İnvoys dəyəri..."
+                        type="text"
+                      />
+                      <input
+                        id="b4-1"
+                        placeholder="Nəqliyyat xərci..."
+                        type="text"
+                      />
+                    </div>
+                    <div class="b-5 calc-item">
+                      <input
+                        id="b5"
+                        placeholder="Digər xərclər..."
+                        type="text"
+                      />
+                      <input
+                        id="b5-1"
+                        placeholder="Mühərrikin həcmi..."
+                        type="text"
+                      />
+                    </div>
+                    <div class="b-6 calc-item">
+                      <input type="date" class="date-placeholder" />
+                    </div>
+                    <div class="b-7 calc-item">
+                      <button>Hesabla</button>
+                    </div>
+                    <div class="b-8 calc-item">
+                      <button disabled="true">Nəticələr</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="service" class="service">
+      <div class="container">
+        <div class="service-content">
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <div class="single-service-item">
+                <div class="single-service-icon">
+                  <i class="flaticon-car"></i>
+                </div>
+                <h2><a href="#">bizi seçən narazı qalmır</a></h2>
+                <p>
+                  Sizdən avtomobilin modelin demək, bizdən isə, istədiyiniz
+                  modelin ideal vəziyyətdə tapıb, sizə təhvil vermək!
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="single-service-item">
+                <div class="single-service-icon">
+                  <i class="flaticon-car-repair"></i>
+                </div>
+                <h2><a href="#">zəmanət</a></h2>
+                <p>
+                  Bizim şirkət gətirilən avtomobillərin mühərrik, sürətlər
+                  qutusu və yürüş məsafəsi rəsmi zəmanət verir!
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="single-service-item">
+                <div class="single-service-icon">
+                  <i class="flaticon-car-1"></i>
+                </div>
+                <h2><a href="#">sığorta dəstəyi</a></h2>
+                <p>
+                  Bizim şirkət təfəfindən gətirilən hər bir avtomobilədə sigorta
+                  dəstəyi verilir. Ətraflı məlumat
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="new-cars" class="new-cars">
+      <div class="container">
+        <div class="section-header">
+          <p>ən son <span>avtomobil </span> modellərinə baxın</p>
+          <h2>ən yeni avtomobillər</h2>
+        </div>
+        <div class="new-cars-content">
+          <div class="owl-carousel owl-theme" id="new-cars-carousel">
+            <div class="new-cars-item">
+              <div class="single-new-cars-item">
+                <div class="row">
+                  <div class="col-md-7 col-sm-12">
+                    <div class="new-cars-img">
+                      <img
+                        src="../assets/images/new-cars-model/ncm1.png"
+                        alt="img"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-5 col-sm-12">
+                    <div class="new-cars-txt">
+                      <h2>
+                        <a href="#">KIA sorento <span> 2016 </span>🔥</a>
+                      </h2>
+                      <p>
+                        Kia Sorento, Koreyanın Kia Motors şirkətinin orta ölçülü
+                        krossoveridir. Avtomobil 2002-ci ilin qışında Çikaqodakı
+                        avtosalonda təqdim edildi. Sorento adı Sorrento-İtalyan
+                        kurort şəhərindən gəlir. Elə həmin il satışa başladı.
+                      </p>
+                      <button
+                        class="welcome-btn new-cars-btn"
+                        onclick="window.location.href='https://www.instagram.com/p/C7ea3too_tp/?img_index=1'"
+                      >
+                        ətrafli məlumat
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="new-cars-item">
+              <div class="single-new-cars-item">
+                <div class="row">
+                  <div class="col-md-7 col-sm-12">
+                    <div class="new-cars-img">
+                      <img
+                        src="../assets/images/new-cars-model/ncm2.png"
+                        alt="img"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-5 col-sm-12">
+                    <div class="new-cars-txt">
+                      <h2><a href="#">Hyundai Elantra 1.6 Dizel 🔥</a></h2>
+                      <p>
+                        Hyundai Elantra, Hyundai Motor Company tərəfindən
+                        istehsal olunan Avropa təsnifatına görə orta səviyyəli
+                        bir avtomobildir.
+                      </p>
+                      <button
+                        class="welcome-btn new-cars-btn"
+                        onclick="window.location.href='https://www.instagram.com/p/C6dx7Y9oCap/?img_index=1'"
+                      >
+                        ətrafli məlumat
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="new-cars-item">
+              <div class="single-new-cars-item">
+                <div class="row">
+                  <div class="col-md-7 col-sm-12">
+                    <div class="new-cars-img">
+                      <img
+                        src="../assets/images/new-cars-model/ncm3.png"
+                        alt="img"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-5 col-sm-12">
+                    <div class="new-cars-txt">
+                      <h2>
+                        <a href="#"
+                          >hyundai Santa Fe The Prime Exclusive Special 2WD
+                          🔥</a
+                        >
+                      </h2>
+                      <p>
+                        Hyundai Santa Fe (Koreya dilində: the)-Cənubi Koreya
+                        istehsalçısı Hyundai tərəfindən 2000 - ci ildən istehsal
+                        olunan avtomobil. Bu, ön və ya tam ötürücülü beş qapılı
+                        krossover SUV-dir. O, Nyu-Meksiko ştatının Santa Fe
+                        şəhərinin adını daşıyır və 2001-ci model ilində
+                        Hyundai-nin ilk yolsuzluq avtomobili kimi təqdim edilib.
+                      </p>
+                      <button
+                        class="welcome-btn new-cars-btn"
+                        onclick="window.location.href='https://www.instagram.com/p/C7WpNlOoMQT/?img_index=1'"
+                      >
+                        ətrafli məlumat
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="featured-cars" class="featured-cars">
+      <div class="container">
+        <div class="section-header">
+          <p>təqdim olunan <span>avtomobillər üçün </span> sifariş verin</p>
+          <h2>Kataloq</h2>
+          <h3>(Yazılan qiymətlər Bakı təhvil qiymətləridir)</h3>
+        </div>
+        <div class="featured-cars-content">
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc1.png"
+                      alt="cars"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2016
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2><a href="#">KIA Sorento 🔥</a></h2>
+                  <h3>20.060 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 11.000 AZN</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc2.png"
+                      alt="cars"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2><a href="#">Hyundai Elantra 1.6 Hybrid 🔥</a></h2>
+                  <h3>10.170 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 8.800 AZN</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc3.png"
+                      alt="cars"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2>
+                    <a href="#"
+                      >Hyundai Santa Fe The Prime Exclusive Special 2WD 🔥</a
+                    >
+                  </h2>
+                  <h3>21.930 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 7.700 AZN</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc4.png"
+                      alt="cars"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2><a href="#">Kia K5 1.7 Diesel MX Noblesse 🔥</a></h2>
+                  <h3>15.470 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 5.700 AZN</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc5.png"
+                      alt=" cars"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2><a href="#">BMW F30 320d M Perfomance 🔥</a></h2>
+                  <h3>18.530 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 8.300 AZN</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc6.png"
+                      alt="cars"
+                      style="width: 100px"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2><a href="#">Mercedes W205 C200 Avangarde 2WD 🔥</a></h2>
+                  <h3>13.230 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 6.700 AZN</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc7.png"
+                      style="width: 100px"
+                      alt="cars"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2>
+                    <a href="#">BMW G20 330e M Sport Pro First Edition 🔥</a>
+                  </h2>
+                  <h3>21.400 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 6.700 AZN</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc8.png"
+                      alt="cars"
+                      style="width: 100px"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2>
+                    <a href="#">Mercedes-Benz E-Class W213 E200d 2WD 🔥</a>
+                  </h2>
+                  <h3>11.400 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 9.200 AZN</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc5.png"
+                      alt=" cars"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2><a href="#">BMW F30 320d M Perfomance 🔥</a></h2>
+                  <h3>18.530 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 8.300 AZN</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc6.png"
+                      alt="cars"
+                      style="width: 100px"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2><a href="#">Mercedes W205 C200 Avangarde 2WD 🔥</a></h2>
+                  <h3>13.230 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 6.700 AZN</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc7.png"
+                      style="width: 100px"
+                      alt="cars"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2>
+                    <a href="#">BMW G20 330e M Sport Pro First Edition 🔥</a>
+                  </h2>
+                  <h3>21.400 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 6.700 AZN</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc8.png"
+                      alt="cars"
+                      style="width: 100px"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2>
+                    <a href="#">Mercedes-Benz E-Class W213 E200d 2WD 🔥</a>
+                  </h2>
+                  <h3>11.400 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 9.200 AZN</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc5.png"
+                      alt=" cars"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2><a href="#">BMW F30 320d M Perfomance 🔥</a></h2>
+                  <h3>18.530 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 8.300 AZN</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc6.png"
+                      alt="cars"
+                      style="width: 100px"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2><a href="#">Mercedes W205 C200 Avangarde 2WD 🔥</a></h2>
+                  <h3>13.230 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 6.700 AZN</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc7.png"
+                      style="width: 100px"
+                      alt="cars"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2>
+                    <a href="#">BMW G20 330e M Sport Pro First Edition 🔥</a>
+                  </h2>
+                  <h3>21.400 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 6.700 AZN</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc8.png"
+                      alt="cars"
+                      style="width: 100px"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2>
+                    <a href="#">Mercedes-Benz E-Class W213 E200d 2WD 🔥</a>
+                  </h2>
+                  <h3>11.400 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 9.200 AZN</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc5.png"
+                      alt=" cars"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2><a href="#">BMW F30 320d M Perfomance 🔥</a></h2>
+                  <h3>18.530 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 8.300 AZN</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc6.png"
+                      alt="cars"
+                      style="width: 100px"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2><a href="#">Mercedes W205 C200 Avangarde 2WD 🔥</a></h2>
+                  <h3>13.230 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 6.700 AZN</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc7.png"
+                      style="width: 100px"
+                      alt="cars"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2>
+                    <a href="#">BMW G20 330e M Sport Pro First Edition 🔥</a>
+                  </h2>
+                  <h3>21.400 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 6.700 AZN</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc8.png"
+                      alt="cars"
+                      style="width: 100px"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2>
+                    <a href="#">Mercedes-Benz E-Class W213 E200d 2WD 🔥</a>
+                  </h2>
+                  <h3>11.400 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 9.200 AZN</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc5.png"
+                      alt=" cars"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2><a href="#">BMW F30 320d M Perfomance 🔥</a></h2>
+                  <h3>18.530 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 8.300 AZN</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc6.png"
+                      alt="cars"
+                      style="width: 100px"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2><a href="#">Mercedes W205 C200 Avangarde 2WD 🔥</a></h2>
+                  <h3>13.230 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 6.700 AZN</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc7.png"
+                      style="width: 100px"
+                      alt="cars"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2>
+                    <a href="#">BMW G20 330e M Sport Pro First Edition 🔥</a>
+                  </h2>
+                  <h3>21.400 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 6.700 AZN</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc8.png"
+                      alt="cars"
+                      style="width: 100px"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2>
+                    <a href="#">Mercedes-Benz E-Class W213 E200d 2WD 🔥</a>
+                  </h2>
+                  <h3>11.400 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 9.200 AZN</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc5.png"
+                      alt=" cars"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2><a href="#">BMW F30 320d M Perfomance 🔥</a></h2>
+                  <h3>18.530 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 8.300 AZN</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc6.png"
+                      alt="cars"
+                      style="width: 100px"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2><a href="#">Mercedes W205 C200 Avangarde 2WD 🔥</a></h2>
+                  <h3>13.230 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 6.700 AZN</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc7.png"
+                      style="width: 100px"
+                      alt="cars"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2>
+                    <a href="#">BMW G20 330e M Sport Pro First Edition 🔥</a>
+                  </h2>
+                  <h3>21.400 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 6.700 AZN</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="single-featured-cars">
+                <div class="featured-img-box">
+                  <div class="featured-cars-img">
+                    <img
+                      src="../assets/images/featured-cars/fc8.png"
+                      alt="cars"
+                      style="width: 100px"
+                    />
+                  </div>
+                  <div class="featured-model-info">
+                    <p>
+                      model: 2017
+                      <span class="featured-mi-span"> 3100 mi</span>
+                      <span class="featured-hp-span"> 240HP</span>
+                      automatic
+                    </p>
+                  </div>
+                </div>
+                <div class="featured-cars-txt">
+                  <h2>
+                    <a href="#">Mercedes-Benz E-Class W213 E200d 2WD 🔥</a>
+                  </h2>
+                  <h3>11.400 AZN</h3>
+                  <h4>Gömrük rüsumu təxmini 9.200 AZN</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="clients-say" class="clients-say">
+      <div class="container">
+        <div class="section-header">
+          <h2>Müştərilərimizin rəyi</h2>
+        </div>
+        <div class="row">
+          <div class="owl-carousel testimonial-carousel">
+            <div class="col-sm-3 col-xs-12">
+              <div class="single-testimonial-box">
+                <div class="testimonial-description">
+                  <div class="testimonial-info">
+                    <div class="testimonial-img">
+                      <img
+                        src="../assets/images/clients/default.png"
+                        alt="image of clients person"
+                      />
+                    </div>
+                  </div>
+                  <div class="testimonial-comment">
+                    <p>Rəy</p>
+                  </div>
+                  <div class="testimonial-person">
+                    <h2><a href="#">Ad</a></h2>
+                    <h4>Soyad</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-xs-12">
+              <div class="single-testimonial-box">
+                <div class="testimonial-description">
+                  <div class="testimonial-info">
+                    <div class="testimonial-img">
+                      <img
+                        src="../assets/images/clients/default.png"
+                        alt="image of clients person"
+                      />
+                    </div>
+                  </div>
+                  <div class="testimonial-comment">
+                    <p>Rəy</p>
+                  </div>
+                  <div class="testimonial-person">
+                    <h2><a href="#">Ad</a></h2>
+                    <h4>Soyad</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-xs-12">
+              <div class="single-testimonial-box">
+                <div class="testimonial-description">
+                  <div class="testimonial-info">
+                    <div class="testimonial-img">
+                      <img
+                        src="../assets/images/clients/default.png"
+                        alt="image of clients person"
+                      />
+                    </div>
+                  </div>
+                  <div class="testimonial-comment">
+                    <p>Rəy</p>
+                  </div>
+                  <div class="testimonial-person">
+                    <h2><a href="#">Ad</a></h2>
+                    <h4>Soyad</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="blog" class="blog"></section>
+    <footer id="contact" class="contact">
+      <div class="container">
+        <div class="footer-top">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div class="single-footer-widget">
+                <div class="footer-logo">
+                  <a class="caspianlogo" href="index.html"
+                    ><img src="../assets/logo/cga_horizontal.png"
+                  /></a>
+                  <a class="encarlogo" href="https://encar.com/"
+                    ><img src="../assets/logo/trust_encar_logo.png"
+                  /></a>
+                </div>
+                <p>Koreya, ABŞ və Çindən avtomobil sifarişi</p>
+                <div class="footer-contact">
+                  <!--<p>info@caspianglobalauto.com</p>
+                  <p title="Ilham">📲+994 (55) 857-00-01 İlham</p>
+                  <p title="Fərid">📲+994 (55) 847-00-01 Fərid</p>
+                  <p title="Sadiq">📲+994 (55) 827-00-01 Sadiq</p>
+                  <p title="Alik">📲+994 (55) 837-00-01 Alik</p>
+                  <p title="Səidə">📲+994 (55) 649-00-01 Səidə</p>
+                  <p title="Samir">📲+994 (55) 683-00-01 Samir</p>
+                  <p title="Elvin">📲+994 (55) 684-00-01 Elvin</p>-->
+                  <img src="../assets/images/countries/us.png" />
+                  <img src="../assets/images/countries/ch.png" />
+                  <img src="../assets/images/countries/kr.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <section id="works-say" class="works-say">
+            <div class="container">
+              <div class="section-header-works">
+                <h2>İşçilərimiz</h2>
+              </div>
+              <div class="row">
+                <div class="owl-carousel testimonial-carousel">
+                  <div class="col-sm-3 col-xs-12">
+                    <div class="single-testimonial-box">
+                      <div class="testimonial-description">
+                        <div class="testimonial-info">
+                          <div class="testimonial-img">
+                            <img src="../assets/works/azim_re01.jpeg" />
+                          </div>
+                        </div>
+                        <div class="testimonial-comment">
+                          <p>"Caspian Global Auto"-nun rəhbəri</p>
+                        </div>
+                        <div class="testimonial-person">
+                          <h2><a href="#">Elvin</a></h2>
+                          <h4>Əzimov</h4>
+                        </div>
+                        <div class="contacts">
+                          <a href="https://www.instagram.com/azim_re01"
+                            ><i
+                              class="fa fa-instagram"
+                              title="İnstagram səhifə"
+                            ></i
+                          ></a>
+                          <a href="tel:+994556840001"
+                            ><i class="fa fa-phone" title="Əlaqə nömrəsi"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-12">
+                    <div class="single-testimonial-box">
+                      <div class="testimonial-description">
+                        <div class="testimonial-info">
+                          <div class="testimonial-img">
+                            <img src="../assets/works/azimov_sam.jpeg" />
+                          </div>
+                        </div>
+                        <div class="testimonial-comment">
+                          <p>İsçi</p>
+                        </div>
+                        <div class="testimonial-person">
+                          <h2><a href="#">Samir</a></h2>
+                          <h4>Əzimov</h4>
+                        </div>
+                        <div class="contacts">
+                          <a href="https://www.instagram.com/azimov_sam"
+                            ><i
+                              class="fa fa-instagram"
+                              title="İnstagram səhifə"
+                            ></i
+                          ></a>
+                          <a href="tel:"
+                            ><i class="fa fa-phone" title="Əlaqə nömrəsi"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-12">
+                    <div class="single-testimonial-box">
+                      <div class="testimonial-description">
+                        <div class="testimonial-info">
+                          <div class="testimonial-img">
+                            <img src="../assets/images/clients/default.png" />
+                          </div>
+                        </div>
+                        <div class="testimonial-comment">
+                          <p>İsçi</p>
+                        </div>
+                        <div class="testimonial-person">
+                          <h2><a href="#">Alik</a></h2>
+                          <h4>Soyad</h4>
+                        </div>
+                        <div class="contacts">
+                          <a href="https://www.instagram.com/"
+                            ><i
+                              class="fa fa-instagram"
+                              title="İnstagram səhifə"
+                            ></i
+                          ></a>
+                          <a href="tel:"
+                            ><i class="fa fa-phone" title="Əlaqə nömrəsi"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-12">
+                    <div class="single-testimonial-box">
+                      <div class="testimonial-description">
+                        <div class="testimonial-info">
+                          <div class="testimonial-img">
+                            <img src="../assets/images/clients/default.png" />
+                          </div>
+                        </div>
+                        <div class="testimonial-comment">
+                          <p>İsçi</p>
+                        </div>
+                        <div class="testimonial-person">
+                          <h2><a href="#">Ilham</a></h2>
+                          <h4>Soyad</h4>
+                        </div>
+                        <div class="contacts">
+                          <a href="https://www.instagram.com/"
+                            ><i
+                              class="fa fa-instagram"
+                              title="İnstagram səhifə"
+                            ></i
+                          ></a>
+                          <a href="tel:"
+                            ><i class="fa fa-phone" title="Əlaqə nömrəsi"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-12">
+                    <div class="single-testimonial-box">
+                      <div class="testimonial-description">
+                        <div class="testimonial-info">
+                          <div class="testimonial-img">
+                            <img src="../assets/images/clients/default.png" />
+                          </div>
+                        </div>
+                        <div class="testimonial-comment">
+                          <p>İsçi</p>
+                        </div>
+                        <div class="testimonial-person">
+                          <h2><a href="#">Fərid</a></h2>
+                          <h4>Soyad</h4>
+                        </div>
+                        <div class="contacts">
+                          <a href="https://www.instagram.com/"
+                            ><i
+                              class="fa fa-instagram"
+                              title="İnstagram səhifə"
+                            ></i
+                          ></a>
+                          <a href="tel:"
+                            ><i class="fa fa-phone" title="Əlaqə nömrəsi"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-12">
+                    <div class="single-testimonial-box">
+                      <div class="testimonial-description">
+                        <div class="testimonial-info">
+                          <div class="testimonial-img">
+                            <img src="../assets/images/clients/default.png" />
+                          </div>
+                        </div>
+                        <div class="testimonial-comment">
+                          <p>İsçi</p>
+                        </div>
+                        <div class="testimonial-person">
+                          <h2><a href="#">Sadiq</a></h2>
+                          <h4>Soyad</h4>
+                        </div>
+                        <div class="contacts">
+                          <a href="https://www.instagram.com/"
+                            ><i
+                              class="fa fa-instagram"
+                              title="İnstagram səhifə"
+                            ></i
+                          ></a>
+                          <a href="tel:"
+                            ><i class="fa fa-phone" title="Əlaqə nömrəsi"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-12">
+                    <div class="single-testimonial-box">
+                      <div class="testimonial-description">
+                        <div class="testimonial-info">
+                          <div class="testimonial-img">
+                            <img src="../assets/images/clients/default.png" />
+                          </div>
+                        </div>
+                        <div class="testimonial-comment">
+                          <p>İsçi</p>
+                        </div>
+                        <div class="testimonial-person">
+                          <h2><a href="#">Səidə</a></h2>
+                          <h4>Soyad</h4>
+                        </div>
+                        <div class="contacts">
+                          <a href="https://www.instagram.com/">
+                            <i
+                              class="fa fa-instagram"
+                              title="İnstagram səhifə"
+                            ></i
+                          ></a>
+                          <a href="tel:"
+                            ><i class="fa fa-phone" title="Əlaqə nömrəsi"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="section-header-works">
+            <h2>Sosial şəbəkələrimiz</h2>
+          </div>
+          <div class="social-contacts">
+            <div class="col-sm-3 col-xs-12">
+              <div
+                class="single-testimonial-box-social-instagram"
+                onclick="window.location.href='https://instagram.com/caspianglobalauto'"
+              >
+                <div class="testimonial-description">
+                  <div class="testimonial-info">
+                    <div class="testimonial-img">
+                      <i class="fa fa-instagram"></i>
+                    </div>
+                  </div>
+                  <div class="testimonial-comment">
+                    <p>Instagram</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-xs-12">
+              <div
+                class="single-testimonial-box-social-facebook"
+                onclick="window.location.href='https://www.facebook.com/cga.azerbaijan'"
+              >
+                <div class="testimonial-description">
+                  <div class="testimonial-info">
+                    <div class="testimonial-img">
+                      <i class="fa fa-facebook"></i>
+                    </div>
+                  </div>
+                  <div class="testimonial-comment">
+                    <p>Facebook</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-xs-12">
+              <div
+                class="single-testimonial-box-social-linkedin"
+                onclick="window.location.href='https://www.linkedin.com/company/caspian-global-auto/'"
+              >
+                <div class="testimonial-description">
+                  <div class="testimonial-info">
+                    <div class="testimonial-img">
+                      <i class="fa fa-linkedin"></i>
+                    </div>
+                  </div>
+                  <div class="testimonial-comment">
+                    <p>Linkedin</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-xs-12">
+              <div
+                class="single-testimonial-box-social-whatsapp"
+                onclick="window.location.href='https://api.whatsapp.com/message/OV52CREKMNZIO1?autoload=1&app_absent=0'"
+              >
+                <div class="testimonial-description">
+                  <div class="testimonial-info">
+                    <div class="testimonial-img">
+                      <i class="fa fa-whatsapp"></i>
+                    </div>
+                  </div>
+                  <div class="testimonial-comment">
+                    <p>WhatsApp</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="section-header-location">
+          <h2>Ünvanımız</h2>
+        </section>
+        <p
+          class="caspianlocation"
+          title="Ünvanı xəritədə görmək üçün, klikləyin"
+          onclick="window.location.href='https://2gis.az/ru/baku/firm/70000001042637347'"
+        >
+          <img src="../assets/location-logo/location.gif" />
+          8 Noyabr prospekti 15, Baku, Azerbaijan
+        </p>
+      </div>
+      <section class="section-header-phone">
+        <h2>Əlaqə nömrəmiz</h2>
+      </section>
+      <p
+        class="caspianphone"
+        onclick="window.location.href='tel:+994558470001'"
+      >
+        <img src="../assets/phone-logo/phone.gif" />
+        +994 55 847 00 01
+      </p>
+      <div id="scroll-Top">
+        <div class="return-to-top">
+          <i
+            class="fa fa-angle-up"
+            id="scroll-top"
+            data-toggle="tooltip"
+            data-placement="top"
+            title=""
+            data-original-title="Back to Top"
+            aria-hidden="true"
+          ></i>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bootsnav.js"></script>
+    <script src="../assets/js/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="../assets/js/custom.js"></script>
+    <script src="../assets/js/livechat.js"></script>
+  </body>
+</html>

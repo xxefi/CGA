@@ -1,0 +1,494 @@
+@media screen and (max-width: 1199px) {
+  .welcome-hero-txt h2 {
+    font-size: 40px;
+  }
+  .welcome-btn.model-search-btn {
+    margin-left: 28px;
+  }
+  .featured-cars-img {
+    padding: 0 10px;
+  }
+  .icon img {
+    margin-right: 215px;
+  }
+  .wrap-sticky nav.navbar.bootsnav.sticked ul.nav > li > img {
+    display: none;
+  }
+  .wrap-sticky nav.navbar.bootsnav.sticked ul.nav > li > a {
+    margin-right: 40px;
+  }
+  .model-search-content {
+    top: -300px;
+  }
+  .calculator.slide-in-blurred-left {
+    padding: 100px;
+  }
+  .welcome-hero:before {
+    height: 106.1%;
+  }
+  .single-service-item {
+    padding: 31px 30px 2px;
+  }
+  .caspianphone {
+    width: 54%;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .welcome-hero:before {
+    height: 106%;
+  }
+  .featured-cars-content .row {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1008px) {
+}
+
+@media screen and (max-width: 992px) {
+  nav.navbar.bootsnav .navbar-collapse.collapse.in {
+    padding-bottom: 30px;
+  }
+  nav.navbar.bootsnav {
+    background-color: #000;
+  }
+  .wrap-sticky nav.navbar.bootsnav.sticked ul.nav > li > a {
+    padding: 18px 0px;
+  }
+  nav.navbar.bootsnav .navbar-brand {
+    padding: 25px;
+  }
+  nav.navbar.bootsnav ul.nav > li > a {
+    padding: 15px 0px;
+    border: transparent;
+  }
+  .wrap-sticky nav.navbar.bootsnav.sticked ul.nav > li > img {
+    display: flex;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+  nav.navbar.bootsnav .navbar-header {
+    padding-left: 45%;
+  }
+  .welcome-hero:before {
+    height: 106.2%;
+  }
+  .calculator.slide-in-blurred-left {
+    padding: 10px;
+  }
+
+  .featured-cars-content .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .welcome-hero-txt h2 {
+    line-height: 1.6;
+  }
+
+  .welcome-hero::before {
+    height: 118.5%;
+  }
+  .model-search-content {
+    left: 20%;
+  }
+  .service-content .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .model-search-content .col-sm-12 {
+    padding: 0 40px;
+  }
+  .single-model-search:last-child {
+    margin-bottom: 30px;
+  }
+  .welcome-btn.model-search-btn {
+    margin: 0;
+  }
+
+  .single-new-cars-item {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  .new-cars-txt {
+    margin: 30px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .owl-stage {
+    width: 1000px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .single-service-item {
+    max-width: 350px;
+    margin: 30px auto;
+  }
+  .single-featured-cars {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  .footer-social {
+    text-align: left;
+  }
+  .footer-social a i {
+    margin-right: 16px;
+    margin-left: 0;
+  }
+  .hm-foot-email {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+}
+
+@media screen and (max-width: 640px) {
+  .single-testimonial-box {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 580px) {
+}
+
+@media screen and (max-width: 540px) {
+  .featured-cars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .welcome-hero h2 {
+    font-size: 30px;
+  }
+  .single-model-search h2 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .testimonial-carousel .col-sm-3,
+  .testimonial-carousel .col-xs-12 {
+    width: 260px;
+  }
+  .single-service-item h2 a {
+    line-height: 1.5;
+  }
+  .section-header h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  nav.navbar.bootsnav .navbar-toggle {
+    margin-right: -25px;
+    left: -10px;
+  }
+  nav.navbar.bootsnav .navbar-brand {
+    padding: 25px 0;
+    font-size: 20px;
+  }
+  .wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand,
+  .wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:hover,
+  .wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:focus {
+    padding: 25px 0px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .calculator .calc-form {
+    position: relative;
+    top: 250px;
+    max-width: 370px;
+  }
+  .welcome-hero:before {
+    width: 100%;
+  }
+  .welcome-hero-txt {
+    padding: 170px 0px 115px;
+  }
+  .section-header h2:before {
+    width: 555px;
+  }
+  .single-featured-cars {
+    max-width: 300px;
+    margin: 20px;
+  }
+  .owl-stage {
+    width: 500px;
+  }
+  .social-contacts {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .single-testimonial-box-social-instagram {
+    margin-bottom: 12px;
+  }
+  .single-testimonial-box-social-facebook {
+    margin-bottom: 20px;
+  }
+  .single-testimonial-box-social-linkedin {
+    margin-bottom: 20px;
+  }
+  .single-testimonial-box-social-whatsapp {
+    margin-bottom: 12px;
+  }
+  .caspianlocation {
+    font-size: 12px;
+  }
+  .caspianlocation img {
+    transform: scale(0.7);
+  }
+  .caspianphone {
+    font-size: 12px;
+  }
+  .caspianphone img {
+    transform: scale(0.7);
+  }
+  .owl-stage {
+    width: 500px;
+    box-sizing: border-box;
+  }
+  .model-search-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .calculator.slide-in-blurred-left {
+    padding: 13px;
+  }
+  .container .row {
+    width: 390px;
+  }
+  #scroll-Top .return-to-top {
+    right: 300px;
+  }
+  .single-footer-widget {
+    margin-right: 0;
+  }
+  .single-footer-widget p {
+    margin: 31px 45px 18px;
+  }
+  .caspianlogo img {
+    transform: scale(0.9);
+  }
+  .encarlogo img {
+    transform: scale(0.9);
+  }
+  .footer-logo {
+    margin-right: 10px;
+  }
+  .testimonial-comment p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .calculator .calc-form {
+    position: relative;
+    top: 250px;
+    max-width: 400px;
+  }
+  .welcome-hero:before {
+    width: 100%;
+  }
+  .welcome-hero-txt {
+    padding: 170px 0px 115px;
+  }
+  .section-header h2:before {
+    width: 555px;
+  }
+  .single-featured-cars {
+    max-width: 300px;
+    margin: 20px;
+  }
+  .owl-stage {
+    width: 500px;
+  }
+  .social-contacts {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .single-testimonial-box-social-instagram {
+    margin-bottom: 12px;
+  }
+  .single-testimonial-box-social-facebook {
+    margin-bottom: 20px;
+  }
+  .single-testimonial-box-social-linkedin {
+    margin-bottom: 20px;
+  }
+  .single-testimonial-box-social-whatsapp {
+    margin-bottom: 12px;
+  }
+  .caspianlocation {
+    font-size: 12px;
+  }
+  .caspianlocation img {
+    transform: scale(0.7);
+  }
+  .caspianphone {
+    font-size: 12px;
+  }
+  .caspianphone img {
+    transform: scale(0.7);
+  }
+  .owl-stage {
+    width: 500px;
+    box-sizing: border-box;
+  }
+  .model-search-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .calculator.slide-in-blurred-left {
+    padding: 13px;
+  }
+  .container .row {
+    width: 390px;
+  }
+  #scroll-Top .return-to-top {
+    right: 300px;
+  }
+  .single-footer-widget {
+    margin-right: 0;
+  }
+  .single-footer-widget p {
+    margin: 31px 45px 18px;
+  }
+  .caspianlogo img {
+    transform: scale(0.9);
+  }
+  .encarlogo img {
+    transform: scale(0.9);
+  }
+  .footer-logo {
+    margin-right: 10px;
+  }
+  .testimonial-comment p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .calculator .calc-form {
+    position: relative;
+    top: 60px;
+    max-width: 400px;
+  }
+  .welcome-hero:before {
+    width: 100%;
+  }
+  .welcome-hero-txt {
+    padding: 170px 0px 115px;
+  }
+  .section-header h2:before {
+    width: 0;
+  }
+  .single-featured-cars {
+    max-width: 300px;
+    margin: 20px;
+  }
+  .owl-stage {
+    width: 500px;
+  }
+  .social-contacts {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .single-testimonial-box-social-instagram {
+    margin-bottom: 12px;
+  }
+  .single-testimonial-box-social-facebook {
+    margin-bottom: 20px;
+  }
+  .single-testimonial-box-social-linkedin {
+    margin-bottom: 20px;
+  }
+  .single-testimonial-box-social-whatsapp {
+    margin-bottom: 12px;
+  }
+  .caspianlocation {
+    font-size: 12px;
+  }
+  .caspianlocation img {
+    transform: scale(0.7);
+  }
+  .caspianphone {
+    font-size: 12px;
+  }
+  .caspianphone img {
+    transform: scale(0.7);
+  }
+  .owl-stage {
+    width: 500px;
+    box-sizing: border-box;
+  }
+  .model-search-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .calculator.slide-in-blurred-left {
+    padding: 13px;
+  }
+  .container .row {
+    width: 390px;
+  }
+  #scroll-Top .return-to-top {
+    right: 0;
+  }
+  .container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .single-footer-widget {
+    margin-right: 0;
+  }
+  .single-footer-widget p {
+    margin: 31px 45px 18px;
+  }
+  .caspianlogo img {
+    transform: scale(0.9);
+  }
+  .encarlogo img {
+    transform: scale(0.9);
+  }
+  .footer-logo {
+    margin-right: 10px;
+  }
+  .testimonial-comment p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+  }
+}
+@media screen and (max-width: 350px) {
+  .welcome-hero::before {
+    height: 89.2%;
+  }
+}
